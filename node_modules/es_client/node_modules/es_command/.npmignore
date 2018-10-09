@@ -1,0 +1,5 @@
+/node_modules
+**.sw*
+/config.js
+**.DS_Store
+npm-debug.log

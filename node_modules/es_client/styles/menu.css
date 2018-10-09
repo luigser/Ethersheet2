@@ -1,0 +1,142 @@
+
+#es-menu-container h2{
+  margin-top: 0;
+}
+#es-sheet-menu-container ul:first-child {
+  display: none;
+}
+
+.es-menu-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  /*color:#111;*/
+}
+.es-menu-list li{
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
+  /*border-top: none;*/
+  /*border-left: none;*/
+  /*color: red;*/
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: none;
+}
+.es-menu-list li:first-child{
+  /*margin-top: 1px;/!*no buono*!/*/
+}
+
+#es-panel-1 .es-menu-list li {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  /*border-left: none;*/
+  /*border-bottom: 1px solid red;*/
+  color: #000000;
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: none;
+}
+/*.es-menu-list li:first-child{
+  margin-top: 1px;/!*ddr no buono*!/
+}*/
+
+.es-sheet-name {
+  width: 145px;
+}
+.clear{
+  clear: both;
+}
+#es-sheet-list-container {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #888;
+}
+#es-menu-grid li {
+  /*border-bottom: 1px solid #CCCCCC;*/
+  display: inline-block;
+  height: 96px;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#es-menu-grid li:hover {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+#es-menu-grid img{
+  clear: both;
+  display: block;
+  margin: 15px auto;
+}
+#es-menu-grid {
+  margin: 0;
+  padding: 0;
+}
+.es-menu-grid-button span {
+  font-size: 14px;
+  padding: 2px 0;
+}
+.es-menu-list li.es-menu-button:hover, .es-menu-list li.es-menu-button.active{
+  background: #2196F3;
+  /*border-bottom: 1px solid #0baad4;*/
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#es-panel-1 .es-menu-list li.es-menu-button:hover{
+  background: #2196F3;
+  /*border-bottom: 1px solid #0baad4;*/
+  color: #FFFFFF;
+  font-size: 16px;
+  /*cursor: pointer;*/
+}
+#es-panel-0 #es-export-csv, #es-panel-0 #es-import-csv {
+  cursor: pointer;
+  border-bottom: 1px solid #CCCCCC;
+  margin-top: -4px;
+}
+
+
+#es-menu-grid a{
+  color: #000;
+}
+.es-sheet-control {
+  margin-right: 5px;
+  cursor: pointer;
+  float: right;
+}
+.es-sheet-control#delete-sheet {
+}
+
+div#es-function-icon{
+  display: none;
+}
+
+button#delete-sheet {
+  display: none;
+}
+
+button#rename-sheet{
+  display: none;
+}
+
+li#es-add-sheet-button {
+  display: none;
+}
+
+ul#add-row-menu{
+  position: absolute;
+  margin-left: 113px;
+  top: 0px;
+  width: 100px;
+  display:none;
+}
+
+#add-row-menu-trigger:hover ~ #add-row-menu{
+  display:block;
+}
+
+#add-row-menu:hover{
+  display:block;
+}
