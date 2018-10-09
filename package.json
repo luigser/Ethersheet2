@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "express": "3.x",
-    "es_client":  "ethersheet-collective/es_client",
     "es_command": "ethersheet-collective/es_command",
     "transactor": "ethersheet-collective/transactor",
     "ejs": ">=0.7.1",
@@ -23,7 +22,10 @@
     "csv": "*",
     "async": "*",
     "node-uuid": "*",
-    "stitchit": "*"
+    "stitchit": "*",
+    "http-proxy": "^1.17.0",
+    "cluster" : "^0.7.7"
+
   },
   "devDependencies": {
     "mocha": ">=1.3.0",
