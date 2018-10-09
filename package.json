@@ -24,7 +24,10 @@
     "node-uuid": "*",
     "stitchit": "*",
     "http-proxy": "^1.17.0",
-    "cluster" : "^0.7.7"
+    "cluster" : "^0.7.7",
+    "csv-sniffer": "^0.1.1",
+    "formidable": "^1.2.1",
+    "cookie-session": "^2.0.0-beta.3"
 
   },
   "devDependencies": {
