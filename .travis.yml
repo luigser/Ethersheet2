@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 0.8
+after_install:
+  - "export DISPLAY=:99.0"
+  - "export NODE_ENV=test"
+  - "npm start & > /dev/null"
+notifications:
+  email:
+    - ted@radicaldesigns.org 
+    - cooperq@cooperq.com
+before_script:
+  - cp examples/config-example.js config.js
+  - mysql -uroot < examples/db.sql
