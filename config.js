@@ -9,8 +9,8 @@ module.exports = {
   db_host: 'localhost',
   db_type: 'mysql',
   debug: false,
-  default_row_count: 1,
-  default_col_count: 1,
+  default_row_count: 100,
+  default_col_count: 16,
   expire_days: 0,
   intro_text: "welcome to ethersheet, enter a sheet name to get started"
 }
